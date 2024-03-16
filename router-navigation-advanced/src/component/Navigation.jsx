@@ -22,7 +22,7 @@ const Navigation = () => {
                     </NavLink>
                     <NavLink to={"/teacher/1?expertise=c"} state={{visited:"Teacher 1"}}>Teacher 1</NavLink>
                     <NavLink to={"/teacher/2?expertise=java"} >Teacher 2</NavLink>
-                    <NavLink to={"/teacher/3?expertise=python"} >Teacher 3</NavLink>
+                    <NavLink to={"/teacher/3?expertise=javaScript"} >Teacher 3</NavLink>
                     <button onClick={() => navigate('/home')}>Go to Home </button>
                 </nav>
                 

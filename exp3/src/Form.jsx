@@ -1,5 +1,4 @@
 import React,{useState} from 'react'
-
 const ItemList = ({ items }) => (
     <ul>
       {items.map((item, index) => (
@@ -25,7 +24,7 @@ const Form = () => {
   
     return (
       <div>
-        <h1>React Functional Components Demo</h1>
+        <h1>React Functional Components </h1>
   
         {/* JSX and Conditional Rendering */}
         <p>{items.length > 0 ? 'Items in the list:' : 'No items in the list'}</p>
