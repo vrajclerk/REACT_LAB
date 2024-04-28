@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="container"> 
+            <table class="table1">
+                <tr>
+                    <td>Number 1:</td>
+                    <td><input type="number" id="num1" /></td>
+                </tr>
+                <tr>
+                    <td>Number 2:</td>
+                    <td><input type="number" id="num2" /></td>
+                </tr>
+                <tr>
+                    <td>Result:</td>
+                    <td><input type="number" id="result" /></td>
+                </tr>
+            </table>
+        </div> 
+        <div class="container2">
+            <button
+            type="button"
+            class="btn btn-primary"
+             name="add"
+             onclick="Calculator('add')">Add</button>
+
+             <button
+            type="button"
+            class="btn btn-primary"
+             name="sub"
+             onclick="Calculator('sub')">Sub</button>
+
+             <button
+            type="button"
+            class="btn btn-primary"
+             name="mul"
+             onclick="Calculator('mul')">Mul</button>
+
+             <button
+            type="button"
+            class="btn btn-primary"
+             name="div"
+             onclick="Calculator('div')">Div</button>
+            
+
+    </div>
+    <script src="./calculator.js"></script>
+</body>
+</html>

@@ -41,10 +41,11 @@ const Login =({loggedInUsers,login,logout}) => {
         </div>
     );
 };
+//map state to props is used to get the state from the store and pass it as a prop to our component.
 const mapStateToProps = (state) => ({
     loggedInUsers: state.loggedInUsers,
 });
-
+//map dispatch to props is used to dispatch the action to the store.
 const mapDispatchToProps = (dispatch) =>({
     login: (user) => dispatch(login(user)),
     logout: (user) => dispatch(logout(user)),
